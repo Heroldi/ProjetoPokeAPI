@@ -1,0 +1,26 @@
+{
+  "name": "projetopokeapi",
+  "version": "1.0.0",
+  "description": "Projeto sobre a PokeAPI",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heroldi/ProjetoPokeAPI.git"
+  },
+  "author": "Heroldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heroldi/ProjetoPokeAPI/issues"
+  },
+  "homepage": "https://github.com/Heroldi/ProjetoPokeAPI#readme"
+}
